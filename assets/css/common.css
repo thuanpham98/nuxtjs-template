@@ -1,0 +1,85 @@
+:root {
+  --layer-dropdown-menu: 3;
+  --layer-message: 9;
+  --layer-loading: 10;
+  --layer-model: 8;
+  --layer-sidebar: 7;
+
+  --breakpoint-tablet: 600px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-destop: 1440px;
+}
+
+.column {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.overlay-1 {
+  overflow: unset;
+  position: fixed;
+  z-index: var(--layer-model);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(26, 44, 53, 0.32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+.overlay-queue-modal {
+  overflow: unset;
+  position: fixed;
+  z-index: var(--layer-model);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(26, 44, 53, 0.32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+.overlay-loading {
+  overflow: unset;
+  position: fixed;
+  z-index: var(--layer-loading);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  background-color: rgba(26, 44, 53, 0.32);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+.width-100 {
+  width: 100%;
+}

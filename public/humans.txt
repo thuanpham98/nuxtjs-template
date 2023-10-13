@@ -1,0 +1,16 @@
+/* TEAM */
+	R&D
+	UI/UX designer
+	BA
+	PM
+
+/* THANKS */
+	All member!
+
+		
+
+/* SITE */
+	Last update:2023/06/09
+	Language: Viet Nam / English
+	Doctype:HTML5
+	IDE: Visual Studio Code
